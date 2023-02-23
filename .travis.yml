@@ -1,0 +1,33 @@
+language: node_js
+
+sudo: false
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - default-jdk
+    - g++-4.8
+    - make
+
+node_js:
+- "0.10"
+- "0.11"
+- "0.12"
+- "4.0"
+- "4.8"
+- "5.0"
+- "5.12"
+- "6.0"
+- "6.13"
+- "7.0"
+- "7.10"
+- "8.0"
+- "8.10"
+- "9.0"
+- "9.9"
+
+before_install:
+- export CXX=g++-4.8
+- npm install -g jshint || true
