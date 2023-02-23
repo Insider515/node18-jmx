@@ -1,4 +1,4 @@
-# node-jmx
+# node18-jmx
 
 [![NPM version](https://badge.fury.io/js/jmx.svg)](http://badge.fury.io/js/jmx)
 [![Code Climate](https://img.shields.io/codeclimate/maintainability-percentage/zuazo/node-jmx.svg)](https://codeclimate.com/github/zuazo/node-jmx)
