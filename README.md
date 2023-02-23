@@ -9,8 +9,8 @@ Node.js bridge library to communicate with Java applications through JMX.
 
 ## Requirements
 
-* Tested with node `>= 0.10`.
-* Java version `6` or higher.
+* Tested with node `v18.13.0`.
+* Java version `8`.
 * `node-java`: See [its installation instructions](https://github.com/joeferner/node-java/blob/v0.9.0/README.md#installation)
 
 ## Installation
